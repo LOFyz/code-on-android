@@ -39,7 +39,7 @@ node -v
 Since we can't install VS Code in our android, we have to run Code Server, that will create a VS Code instance that we can access in our web browser.
 
 ```
-pkg install code-server
+pkg install -y code-server
 ```
 Now we have to create a file to simplify running the code-server:
 ```
