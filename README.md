@@ -52,7 +52,7 @@ code-server --bind-addr 0.0.0.0:8080
 - Then whe select `ctrl` and press `x` in the keyboard, after this we press `y` to save and `enter↵` to finish.
   * The flag `--bind-addr 0.0.0.0:8080` turn you able to access 
   the code-server in lan, through another pc or android. 
-  * To define the password that you will insert when open code-server edit the `password` value with `nano ~/.config/code-server/config.yaml`.
+  * To define the password that you will insert when open code-server, first we have to run `./code.sh` to generate config file, then edit the `password` value with `nano ~/.config/code-server/config.yaml`.
   * If you don't want a password to access your code-server, add the flag `--auth none`.
 
 To make the `code.sh` runnable:
